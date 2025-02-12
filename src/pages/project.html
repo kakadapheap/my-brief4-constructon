@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+    <div class="relative w-full glide-01">
+      <!-- Slides -->
+      <div class="overflow-hidden h-1/1 lg:h-screen" data-glide-el="track">
+        <ul
+          class="relative md:h-full overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]"
+        >
+          <li>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7OXPS39Crf3KSxU1Vtxn6QlxQ-wtGHVwAw&s"
+              class="w-full mx-auto"
+            />
+          </li>
+          <li>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbx9WWsR3D_Tu1_XO6jqdiIQy7Woec-Auqg&s"
+              class="w-full mx-auto"
+            />
+          </li>
+          <li>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpvzyPNskCnnEl9JwrA93qFgAa43f2HBvHAw&s"
+              class="w-full mx-auto"
+            />
+          </li>
+          <li>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lo1G5MzwGdLw1iDvgGoRjLGPOJ2MyRkigQ&s"
+              class="w-full mx-auto"
+            />
+          </li>
+          <li>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagDUwJkSDFst086jw1KfpnuGRxIh-cM2z_g&s"
+              class="w-full mx-auto"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="flex justify-center p-12">
+      <h1
+        class="font-bold max-w-lg text-4xl font-semibold leading-normal text-gray-900 dark:text-white text-[#FFA500]"
+      >
+        Industrial projects
+      </h1>
+    </div>
+
+    <script>
+      var glide01 = new Glide(".glide-01", {
+        type: "slider",
+        focusAt: "center",
+        perView: 1,
+        autoplay: 2200,
+        animationDuration: 700,
+        gap: 0,
+        classes: {
+          activeNav: "[&>*]:bg-slate-700",
+        },
+      });
+
+      glide01.mount();
+    </script>
+  </body>
 </html>
