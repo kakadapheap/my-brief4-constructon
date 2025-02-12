@@ -1,0 +1,8 @@
+.active {
+  background-color: rgb(225, 241, 252);
+}
+.dist-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+}
