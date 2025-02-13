@@ -6,7 +6,7 @@
     <title>FAQ</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="font-raleway">
     <div
       class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden"
     >
@@ -49,7 +49,10 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap mt-10">
+    <h1 class="text-center text-orange-600 text-4xl font-bold mt-10">
+      Get Some Frequently Asked Question
+    </h1>
+    <div class="flex flex-wrap mt-10 ml-[25px]">
       <img
         src="../assets/faq.webp"
         alt="Leafs"
@@ -75,11 +78,21 @@
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>1.Do you carry GL (General Liability) insurance ?</span>
+                <span
+                  >1.Why is it when I get three different estimates that the
+                  prices are so different?</span
+                >
               </summary>
 
               <article class="px-4 pb-4">
-                <p>Yes. Insurance certificates provided upon request.</p>
+                <p>
+                  Many factors go into pricing a remodeling job. The most
+                  obvious is making sure all estimates have the same materials
+                  and scope of work. If you cannot understand all the
+                  information, go back and ask the contractor for clarification.
+                  If you cannot get satisfactory written results, eliminate that
+                  contractor from future bidding.
+                </p>
               </article>
             </details>
           </li>
@@ -164,11 +177,17 @@
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
                   ></path>
                 </svg>
-                <span>4.Who will be coming out to give the estimate?</span>
+                <span>4.How do you handle the dirty work ?</span>
               </summary>
 
               <article class="px-4 pb-4">
-                <p>One of our qualified sales representatives or the owner.</p>
+                <p>
+                  We aim to leave the job site cleaner than when we arrived. Of
+                  course, what we do can be dirty. We tarp our work area, broom
+                  sweep and magnetic broom sweep the work area to get any
+                  possible debris. We also provide porta potties where
+                  applicable.
+                </p>
               </article>
             </details>
           </li>
@@ -326,6 +345,82 @@
           </li>
         </ul>
       </div>
+    </div>
+    <h1 class="text-center text-orange-600 text-4xl font-bold mt-10">
+      Testiminails
+    </h1>
+    <div>
+      <h5 class="text-2xl text-gray-800 p-10">
+        You can write your question here
+      </h5>
+    </div>
+    <div class="w-full md:px-40 max-sm:px-10 mb-2 mt-6">
+      <textarea
+        class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-400 focus:outline-none focus:bg-white"
+        name="body"
+        placeholder="Comment"
+        required
+      ></textarea>
+
+      <div class="flex justify-end">
+        <button
+          type="button"
+          class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 justify-end"
+        >
+          Messages
+        </button>
+      </div>
+    </div>
+    <div class="md:px-40 max-sm:px-10 mt-10">
+      <article
+        class="p-6 text-base bg-white rounded-sm dark:border-gray-700 dark:bg-gray-300"
+      >
+        <footer class="flex justify-between items-center mb-2">
+          <div class="flex items-center">
+            <p
+              class="inline-flex items-center mr-3 text-md font-bold text-gray-900 dark:text-black"
+            >
+              <img
+                class="mr-2 w-15 h-15 rounded-full"
+                src="../assets/trivan.png"
+                alt="Helene Engels"
+              />Pich TriVan
+            </p>
+            <p class="text-sm text-gray-600 dark:text-gray-600">
+              <time pubdate datetime="2022-06-23" title="June 23rd, 2022"
+                >Jun. 23, 2022</time
+              >
+            </p>
+          </div>
+        </footer>
+        <p class="text-gray-500 dark:text-gray-800">
+          Why is it when I get three different estimates that the prices are so
+          different?
+        </p>
+        <div class="flex items-center mt-4 space-x-4">
+          <button
+            type="button"
+            class="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400 font-medium"
+          >
+            <svg
+              class="mr-1.5 w-3.5 h-3.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 20 18"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 5h5M5 8h2m6-3h2m-5 3h6m2-7H2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h3v5l5-5h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1Z"
+              />
+            </svg>
+            Reply
+          </button>
+        </div>
+      </article>
     </div>
   </body>
 </html>
