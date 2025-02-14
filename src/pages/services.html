@@ -6,7 +6,7 @@
     <title>Service</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="font-raleway">
     <div
       class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden"
     >
@@ -32,7 +32,7 @@
           <div class="flex flex-wrap justify-center gap-6">
             <a
               href="#"
-              class="relative flex rounded-sm h-[50px] w-40 items-center justify-center overflow-hidden bg-orange-600 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-900 before:duration-500 before:ease-out hover:shadow-blue-900 hover:before:h-56 hover:before:w-56"
+              class="relative flex rounded-sm h-[50px] w-40 items-center justify-center overflow-hidden bg-orange-600 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-900 before:duration-500 before:ease-out hover:shadow-blue-900 hover:before:h-56 hover:before:w-56 transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ..."
             >
               <span
                 class="relative text-base font-inter font-bold text-white dark:text-dark"
@@ -42,7 +42,7 @@
 
             <a
               href="#"
-              class="relative rounded-sm flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
+              class="relative rounded-sm flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56 transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ..."
             >
               <span
                 class="relative text-base font-inter font-bold text-white dark:text-dark"
@@ -193,7 +193,9 @@
     </h1>
     <div class="flex flex-wrap justify-center mt-10">
       <div class="bg-blue-900 h-[2px] rounded-full w-[1150px]"></div>
-      <div class="max-w-sm">
+      <div
+        class="max-w-sm transform bg-indigo-400 transition duration-500 hover:scale-125"
+      >
         <div class="flex h-[250px] dark:bg-orange-400 bg-teal-400 p-8 flex-col">
           <div class="flex items-center mb-3">
             <h2
@@ -213,7 +215,9 @@
           </div>
         </div>
       </div>
-      <div class="max-w-sm">
+      <div
+        class="max-w-sm transform bg-indigo-400 transition ease-in-out hover:scale-125"
+      >
         <div class="flex h-[250px] dark:bg-gray-800 bg-teal-400 p-8 flex-col">
           <div class="flex items-center mb-3">
             <h2
@@ -230,13 +234,14 @@
                 </u></b
               >to be developed by CC. The New airport is a major development
               soon to serve the city of Phnom Penh, Cambodia. The airport is
-              located 30-40km outside of the city and is expected to be
-              operational by 2025.
+              located 30-40km outside of the city.
             </p>
           </div>
         </div>
       </div>
-      <div class="max-w-sm">
+      <div
+        class="max-w-sm transform bg-indigo-400 transition duration-500 hover:scale-125"
+      >
         <div class="flex h-[250px] dark:bg-orange-400 bg-teal-400 p-8 flex-col">
           <div class="flex items-center mb-3">
             <h2
@@ -259,11 +264,94 @@
     <h1 class="text-center text-orange-600 text-4xl font-bold mt-10">
       Success In All Sectors of The Construction Fields
     </h1>
-    <div class="container mx-auto">
-      <img
-        class="transition duration-1000 ease-in-out opacity-25 hover:opacity-100 cursor-pointer"
-        src="https://images.unsplash.com/photo-1594720872243-05e790c91d04?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80"
-      />
+    <div class="flex flex-wrap justify-center mt-10 gap-6">
+      <div
+        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
+      >
+        <a href="../assets/gallery.png">
+          <img
+            class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
+            src="../assets/gallery.png"
+          />
+        </a>
+        <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
+          <p class="mt-2 text-md text-dark">Hotels and resorts</p>
+          <h3 class="text-3xl text-dark font-bold">Park Hyatt seim Reap</h3>
+        </div>
+      </div>
+      <div
+        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
+      >
+        <a href="../assets/gallery1.png">
+          <img
+            class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
+            src="../assets/gallery1.png"
+          />
+        </a>
+        <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
+          <p class="mt-2 text-md text-dark">Hotels and resorts</p>
+          <h3 class="text-3xl text-dark font-bold">
+            Luxury Hotels in Kandaol Dom
+          </h3>
+        </div>
+      </div>
+      <div
+        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
+      >
+        <a href="../assets/gallery2.png"
+          ><img
+            class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
+            src="../assets/gallery2.png"
+        /></a>
+        <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
+          <p class="mt-2 text-md text-dark">Hotels and resorts</p>
+          <h3 class="text-3xl text-dark font-bold">Boutique Hotel</h3>
+        </div>
+      </div>
+      <div
+        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
+      >
+        <a href="../assets/gallery3.png">
+          <img
+            class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
+            src="../assets/gallery3.png"
+          />
+        </a>
+        <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
+          <p class="mt-2 text-md text-dark">Hotels and resorts</p>
+          <h3 class="text-3xl text-dark font-bold">
+            Majestic Hotel & Spa Resort
+          </h3>
+        </div>
+      </div>
+      <div
+        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
+      >
+        <a href="../assets/gallery4.png">
+          <img
+            class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
+            src="../assets/gallery4.png"
+          />
+        </a>
+        <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
+          <p class="mt-2 text-md text-dark">Hotels and resorts</p>
+          <h3 class="text-3xl text-dark font-bold">Luxury Lifestyle Hotels</h3>
+        </div>
+      </div>
+      <div
+        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
+      >
+        <a href="../assets/gallery5.png">
+          <img
+            class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
+            src="../assets/gallery5.png"
+          />
+        </a>
+        <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
+          <p class="mt-2 text-md text-dark">Hotels and resorts</p>
+          <h3 class="text-3xl text-dark font-bold">Caravan Hotel by EHM</h3>
+        </div>
+      </div>
     </div>
   </body>
 </html>
