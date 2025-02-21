@@ -11,18 +11,14 @@
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
   ></script>
   <body class="font-raleway">
-    <nav
-      class="p-4 bg-gray-700 md:flex md:items-center md:justify-between z-[100px]"
-    >
+    <nav class="p-4 bg-gray-700 md:flex md:items-center md:justify-between">
       <!-- Logo and Menu Icon -->
-      <div
-        class="flex justify-between items-center w-full md:w-auto z-index: 1; to the . topnav"
-      >
+      <div class="flex justify-between items-center w-full md:w-auto">
         <span class="text-2xl font-[Poppins] cursor-pointer mx-4">
           <img
             class="h-10 inline"
             style="width: 70px; height: 70px"
-            src="../assets/Logo.png"
+            src="/src/assets/Logo.png"
           />
         </span>
         <span class="text-3xl cursor-pointer mx-2 md:hidden">
@@ -34,31 +30,53 @@
       <ul
         id="menu"
         .
-        class="z-10 hidden md:flex md:items-center md:space-x-6 w-full md:w-auto flex-col md:flex-row bg-gray-700 md:bg-transparent absolute md:static left-0 md:flex-row text-white font-bold text-2xl max-sm:py-10 md:top-0 transition-all duration-500"
+        class="hidden md:flex md:items-center md:space-x-6 w-full md:w-auto flex-col md:flex-row bg-gray-700 md:bg-transparent absolute md:static left-0 md:flex-row text-white font-bold text-2xl top-16 md:top-0 transition-all duration-500"
       >
         <li>
-          <a href="#" class="block py-2 px-4 hover:text-cyan-500">Home</a>
+          <a href="/index.html" class="block py-2 px-4 hover:text-cyan-500"
+            >Home</a
+          >
         </li>
         <li>
           <a href="#" class="block py-2 px-4 hover:text-cyan-500">Service</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-4 hover:text-cyan-500">About</a>
+          <a
+            href="/src/pages/about.html"
+            class="block py-2 px-4 hover:text-cyan-500"
+            >About</a
+          >
         </li>
         <li>
-          <a href="#" class="block py-2 px-4 hover:text-cyan-500">Project</a>
+          <a
+            href="/src/pages/project.html"
+            class="block py-2 px-4 hover:text-cyan-500"
+            >Project</a
+          >
         </li>
         <li>
-          <a href="#" class="block py-2 px-4 hover:text-cyan-500">Shop</a>
+          <a
+            href="/src/pages/shop.html"
+            class="block py-2 px-4 hover:text-cyan-500"
+            >Shop</a
+          >
         </li>
-        <li><a href="#" class="block py-2 px-4 hover:text-cyan-500">FAQ</a></li>
+        <li>
+          <a
+            href="/src/pages/FAQ.html"
+            class="block py-2 px-4 hover:text-cyan-500"
+            >FAQ</a
+          >
+        </li>
         <!-- Contact Button -->
         <div class="md:mt-4 md:mt-0">
-          <button
-            class="bg-yellow-400 text-white px-6 py-2 mx-4 rounded text-2xl font-bold hover:bg-cyan-500 transition duration-500"
+          <a href="/src/pages/Contact Form.html"
+            ><button
+              class="bg-yellow-400 text-white px-6 py-2 mx-4 rounded text-2xl font-bold hover:bg-cyan-500 transition duration-500"
+            >
+              Contact Us
+            </button></a
           >
-            Contact Us
-          </button>
         </div>
       </ul>
     </nav>
@@ -81,7 +99,7 @@
     >
       <div class="absolute inset-0">
         <img
-          src="../assets/pic service.png"
+          src="/src/assets/pic service.png"
           alt="Background Image"
           class="object-cover object-center w-full h-full"
         />
@@ -92,16 +110,14 @@
         class="relative mt-[100px] flex-col justify-center items-center h-full text-center"
       >
         <div class="m-auto space-y-6 md:w-8/12 lg:w-7/12">
-          <h1
-            class="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-6xl"
-          >
+          <h1 class="text-center text-4xl font-bold text-gray-100 md:text-6xl">
             Construction Services For Both Investors & Costumers
           </h1>
 
           <div class="flex flex-wrap justify-center gap-6">
             <a
-              href="#"
-              class="relative flex rounded-sm h-[50px] w-40 items-center justify-center overflow-hidden bg-orange-600 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-900 before:duration-500 before:ease-out hover:shadow-blue-900 hover:before:h-56 hover:before:w-56 transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ..."
+              href="/src/pages/Contact Form.html"
+              class="relative flex rounded-sm h-[50px] w-40 items-center justify-center overflow-hidden bg-orange-600 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-blue-900 before:duration-500 before:ease-out hover:shadow-blue-900 hover:before:h-56 hover:before:w-56 transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110"
             >
               <span
                 class="relative text-base font-inter font-bold text-white dark:text-dark"
@@ -110,8 +126,8 @@
             </a>
 
             <a
-              href="#"
-              class="relative rounded-sm flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56 transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ..."
+              href="/src/pages/about.html"
+              class="relative rounded-sm flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56 transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110"
             >
               <span
                 class="relative text-base font-inter font-bold text-white dark:text-dark"
@@ -127,29 +143,29 @@
     </h1>
     <div class="flex flex-wrap justify-center mt-10">
       <div
-        class="max-w-sm transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ..."
+        class="max-w-sm transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110"
       >
-        <div class="flex h-[250px] dark:bg-gray-800 bg-teal-400 p-8 flex-col">
+        <div class="flex h-[250px] bg-blue-900 p-8 flex-col">
           <div class="flex items-center mb-3">
             <div
-              class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+              class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"
             >
               <div
-                class="w-[50px] h-[50px] mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+                class="w-[50px] h-[50px] mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"
               >
                 <img
                   class="h-[50px] w-[50px] rounded-full border-4 border-white dark:border-gray-800 mx-auto my-4"
-                  src="../assets/icon-service.png"
+                  src="/src/assets/icon-service.png"
                   alt=""
                 />
               </div>
             </div>
-            <h2 class="text-white dark:text-white text-[25px] font-medium">
+            <h2 class="dark:text-white text-[25px] font-medium">
               Quality <br />Construction
             </h2>
           </div>
           <div class="flex flex-col justify-between flex-grow">
-            <p class="leading-relaxed text-base text-white dark:text-gray-300">
+            <p class="leading-relaxed text-base dark:text-white">
               During any stage of construction, from preliminary site selection
               to design review to ongoing construction...
             </p>
@@ -157,30 +173,30 @@
         </div>
       </div>
       <div
-        class="max-w-sm transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ..."
+        class="max-w-sm transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110"
       >
-        <div class="flex h-[250px] dark:bg-orange-400 bg-teal-400 p-8 flex-col">
+        <div class="flex h-[250px] dark:bg-orange-400 p-8 flex-col">
           <div class="flex items-center mb-3">
             <div
-              class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+              class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"
             >
               <div
-                class="w-[50px] h-[50px] mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+                class="w-[50px] h-[50px] mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0"
               >
                 <img
                   class="h-[50px] w-[50px] rounded-full border-4 border-white dark:border-gray-800 mx-auto my-4"
-                  src="../assets/icon2 sservice.png"
+                  src="/src/assets/icon2 sservice.png"
                   alt=""
                 />
               </div>
             </div>
-            <h2 class="text-white dark:text-white text-[25px] font-medium">
+            <h2 class="dark:text-white text-[25px] font-medium">
               Professional <br />
               Liablity
             </h2>
           </div>
           <div class="flex flex-col justify-between flex-grow">
-            <p class="leading-relaxed text-base text-white dark:text-gray-300">
+            <p class="leading-relaxed text-base dark:text-gray-100">
               We have a team of experienced construction professionals to
               provide the necessary planning, design and construction...
             </p>
@@ -188,29 +204,29 @@
         </div>
       </div>
       <div
-        class="max-w-sm transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ..."
+        class="max-w-sm transition delay-150 duration-250 ease-in-out hover:-translate-y-1 hover:scale-110"
       >
-        <div class="flex h-[250px] dark:bg-gray-800 bg-teal-400 p-8 flex-col">
+        <div class="flex h-[250px] bg-blue-900 p-8 flex-col">
           <div class="flex items-center mb-3">
             <div
-              class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+              class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0"
             >
               <div
-                class="w-[50px] h-[50px] mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+                class="w-[50px] h-[50px] mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0"
               >
                 <img
-                  class="h-[50px] w-[50px] rounded-full border-4 border-white dark:border-gray-800 mx-auto my-4"
-                  src="../assets/icon1 sevice.png"
+                  class="h-[50px] w-[50px] rounded-full border-4 border-white border-gray-800 mx-auto my-4"
+                  src="/src/assets/icon1 sevice.png"
                   alt=""
                 />
               </div>
             </div>
-            <h2 class="text-white dark:text-white text-[25px] font-medium">
+            <h2 class="dark:text-white text-[25px] font-medium">
               Dedicated <br />To Our Clients
             </h2>
           </div>
           <div class="flex flex-col justify-between flex-grow">
-            <p class="leading-relaxed text-base text-white dark:text-gray-300">
+            <p class="leading-relaxed text-base dark:text-gray-100">
               Contracting services for a vast array of marketplaces, including
               financial, agricultural, civil,  retail...
             </p>
@@ -222,7 +238,7 @@
       <section class="relative px-10 md:p-0">
         <img
           class="w-full h-[600px] object-cover"
-          src="../assets/pic1-service.png"
+          src="/src/assets/pic1-service.png"
           alt=""
         />
         <div
@@ -247,11 +263,14 @@
             experience, the company has constructed landmark projects throughout
             the Kingdom.
           </p>
-          <button
-            class="mt-2 md:mt-5 p-3 justify-center bg-blue-900 rounded-sm text-white font-bold font-inter hover:bg-yellow-400 cursor-pointer"
+
+          <a href="/src/pages/Contact Form.html">
+            <button
+              class="mt-2 md:mt-5 p-3 justify-center bg-blue-900 rounded-sm text-white font-bold font-inter hover:bg-yellow-400 cursor-pointer"
+            >
+              Our Service
+            </button></a
           >
-            Our Service
-          </button>
         </div>
       </section>
     </section>
@@ -259,11 +278,10 @@
       Our Beginning
     </h1>
     <div class="flex flex-wrap justify-center mt-10">
-      <div class="bg-blue-900 h-[2px] rounded-full w-[1150px]"></div>
       <div
-        class="max-w-sm transform bg-indigo-400 transition duration-500 hover:scale-125"
+        class="max-w-sm transform bg-orange-400 transition duration-500 hover:scale-125"
       >
-        <div class="flex h-[250px] dark:bg-orange-400 bg-teal-400 p-8 flex-col">
+        <div class="flex h-[250px] p-8 flex-col">
           <div class="flex items-center mb-3">
             <h2
               class="text-white dark:text-white text-[30px] font-bold font-inter"
@@ -272,9 +290,7 @@
             </h2>
           </div>
           <div class="flex flex-col justify-between flex-grow">
-            <p
-              class="leading-relaxed text-base text-white fon dark:text-gray-100"
-            >
+            <p class="leading-relaxed text-base text-white">
               CC started operations in real estate and property development with
               numerous public and private infrastructure planned and developed
               in the years that followed.
@@ -283,9 +299,9 @@
         </div>
       </div>
       <div
-        class="max-w-sm transform bg-indigo-400 transition ease-in-out hover:scale-125"
+        class="max-w-sm transform bg-blue-900 transition ease-in-out hover:scale-125"
       >
-        <div class="flex h-[250px] dark:bg-gray-800 bg-teal-400 p-8 flex-col">
+        <div class="flex h-[250px] p-8 flex-col">
           <div class="flex items-center mb-3">
             <h2
               class="text-white dark:text-white text-[30px] font-bold font-inter"
@@ -294,7 +310,7 @@
             </h2>
           </div>
           <div class="flex flex-col justify-between flex-grow">
-            <p class="leading-relaxed text-base text-white dark:text-gray-100">
+            <p class="leading-relaxed text-base text-white">
               <b
                 ><u
                   >Techo International Airport Techo International Airport
@@ -309,7 +325,7 @@
       <div
         class="max-w-sm transform bg-indigo-400 transition duration-500 hover:scale-125"
       >
-        <div class="flex h-[250px] dark:bg-orange-400 bg-teal-400 p-8 flex-col">
+        <div class="flex h-[250px] bg-orange-400 p-8 flex-col">
           <div class="flex items-center mb-3">
             <h2
               class="text-white dark:text-white text-[30px] font-bold font-inter"
@@ -318,7 +334,7 @@
             </h2>
           </div>
           <div class="flex flex-col justify-between flex-grow">
-            <p class="leading-relaxed text-base text-white dark:text-gray-100">
+            <p class="leading-relaxed text-base text-white">
               <b><u>Koh Norea Bridge</u></b> Connecting the districts of
               Chamkarmon and Chbar Ampov, the Koh Norea Bridge inaugurated in
               2023 makes access to the city all the more convenient for many of
@@ -333,7 +349,7 @@
     </h1>
     <div class="flex flex-wrap justify-center mt-10 gap-3">
       <div
-        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
+        class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer ds shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
       >
         <a href="../assets/gallery.png">
           <img
@@ -349,10 +365,10 @@
       <div
         class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
       >
-        <a href="../assets/gallery1.png">
+        <a href="/src/assets/gallery1.png">
           <img
             class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
-            src="../assets/gallery1.png"
+            src="/src/assets/gallery1.png"
           />
         </a>
         <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
@@ -365,10 +381,10 @@
       <div
         class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
       >
-        <a href="../assets/gallery2.png"
+        <a href="/src/assets/gallery2.png"
           ><img
             class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
-            src="../assets/gallery2.png"
+            src="/src/assets/gallery2.png"
         /></a>
         <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
           <p class="mt-2 text-md text-dark">Hotels and resorts</p>
@@ -378,10 +394,10 @@
       <div
         class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
       >
-        <a href="../assets/gallery3.png">
+        <a href="/src/assets/gallery3.png">
           <img
             class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
-            src="../assets/gallery3.png"
+            src="/src/assets/gallery3.png"
           />
         </a>
         <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
@@ -394,10 +410,10 @@
       <div
         class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
       >
-        <a href="../assets/gallery4.png">
+        <a href="/src/assets/gallery4.png">
           <img
             class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
-            src="../assets/gallery4.png"
+            src="/src/assets/gallery4.png"
           />
         </a>
         <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
@@ -408,15 +424,15 @@
       <div
         class="relative w-[400px] bg-gray-600 text-gray-100 cursor-pointer font-semibold shadow-xs transition-all duration-500 hover:bg--600 hover:text-orange-600"
       >
-        <a href="../assets/gallery5.png">
+        <a href="/src/assets/gallery5.png">
           <img
             class="transition duration-900 opacity-25 hover:opacity-100 cursor-pointer"
-            src="../assets/gallery5.png"
+            src="/src/assets/gallery5.png"
           />
         </a>
         <div class="absolute bottom-[50%] left-0 right-0 px-4 px-5">
           <p class="mt-2 text-md text-dark">Hotels and resorts</p>
-          <h3 class="text-3xl text-dark font-bold">Caravan Hotel by EHM</h3>
+          <h3 class="text-3xl text-dark font-bold">Caravan & HEM</h3>
         </div>
       </div>
     </div>
@@ -430,7 +446,7 @@
           >
             <img
               class="object-cover w-[100%] h-[100%] rounded-full"
-              src="../assets/logo-footer.png"
+              src="/src/assets/logo-footer.png"
               alt=" "
             />
           </div>
